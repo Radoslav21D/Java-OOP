@@ -134,8 +134,6 @@ panel_1.setBackground(Color.ORANGE);
 		});
 		btnNewButton_2.setBounds(12, 355, 97, 25);
 		panel.add(btnNewButton_2);
-		
-		
 	}
 }
 

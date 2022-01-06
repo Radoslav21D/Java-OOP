@@ -5,10 +5,12 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class SumEx extends JFrame {
+	
 	JTextField textField1,textField2,rez;
 	JLabel l;
 	int value1=0,value2=0,sum=0;
 	SumEx() {
+		
 		setLayout(new FlowLayout());
 		textField1 = new JTextField(5);
 		textField2 = new JTextField(5);
@@ -25,6 +27,7 @@ public class SumEx extends JFrame {
 		setSize(230,150);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
 	}
 	class Enter implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
@@ -44,6 +47,7 @@ public class SumEx extends JFrame {
 			}
 		
 	}
+		
 	public void main(String[] args) {
 		// TODO Auto-generated method stub
 			new SumEx();
